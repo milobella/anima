@@ -1,5 +1,6 @@
 from typing import Dict
 from jinja2 import Template
+from random import randint
 
 import yaml
 
@@ -9,7 +10,9 @@ class SentenceMapping(object):
         self._mapping = mapping
 
     def get_sentence(self, tag: str):
-        return self._mapping.get(Normalizer.normalize_sentence(tag), [tag])[0]
+        result = self._mapping.get(Normalizer.normalize_sentence(tag), [tag])
+        random_index = randint(0, len(result) - 1)
+        return result[random_index]
 
 
 class Jinja2Resolver(object):

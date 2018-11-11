@@ -5,3 +5,6 @@ Hello:
   - Bonjour
   - Salut
   - Salutations
+
+Here are the movies in {{theater}} this evening, in the {{location}}'s theater:
+  - Voici les films à l'affiche à {{theater}} de {{location}}
