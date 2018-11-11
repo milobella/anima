@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name='cerebro',
+    name='anima',
     version='0.1-dev',
     entry_points={
       'console_scripts': [
-          'cerebro_launcher=cerebro.__main__:main'
+          'anima_launcher=anima.__main__:main'
       ]
     },
     url='',
