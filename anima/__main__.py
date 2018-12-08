@@ -44,7 +44,7 @@ def process_enumerated_list(val):
 
 
 def process_value(param):
-    if "type" not in param:
+    if "type" not in param or param["type"] == "string":
         return param['value']
     elif param["type"] == "time":
         return process_time(param['value'])
