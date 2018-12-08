@@ -9,5 +9,8 @@ Hello:
 Here are the movies in {{theater}} this evening, in the {{location}}'s theater:
   - Voici les films à l'affiche à {{theater}} de {{location}}
 
-I added {{item}} to your shopping list:
-  - C'est fait, j'ai ajouté {{item}}
+I added {{items}} to your shopping list:
+  - C'est fait, j'ai ajouté {{items}}
+
+and:
+  - et
