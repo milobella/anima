@@ -38,7 +38,7 @@ def process_time(val):
 
 def process_enumerated_list(val):
     if len(val) == 1:
-        return val
+        return val[0]
     start = ", ".join(val[:-1])
     return "{0} {1} {2}".format(start, _mapping.get_sentence("and"), val[-1])
 
