@@ -5,7 +5,6 @@ import configparser
 
 from sanic import response, Sanic
 from sanic.request import Request
-from sanic.response import json
 
 # Initialize the config
 from anima.processing import SentenceMappingReader, Jinja2Resolver
@@ -28,7 +27,7 @@ def main():
 
 
 @_app.route('/')
-async def home(request):
+async def home():
     return response.html('<p>Hello world!</p>')
 
 
