@@ -27,7 +27,7 @@ def main():
 
 
 @_app.route('/')
-async def home():
+async def home(request):
     return response.html('<p>Hello world!</p>')
 
 
