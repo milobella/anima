@@ -1,8 +1,12 @@
 from setuptools import setup
 
+version = None
+with open('VERSION.txt', 'r') as fp:
+    version = fp.read()
+
 setup(
     name='anima',
-    version='0.1-dev',
+    version=version,
     packages=["anima"],
     entry_points={
       'console_scripts': [
