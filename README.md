@@ -26,4 +26,4 @@ curl -i -X POST http://localhost:9333/restitute -d '{"sentence": "It is {{time}}
 
 ## CHANGELOGS
 - [Application changelog](./CHANGELOG.md)
-- [Helm chart changelog](./helm/oratio/CHANGELOG.md)
+- [Helm chart changelog](./helm/anima/CHANGELOG.md)
