@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ##  [0.1]
 ###  Added
+- Added a field regarding shoppinglist
 - Created a Dockerfile to generate a docker image
 - Initialized the main architecture
 - Initialized the helm folder for automatic deployments
