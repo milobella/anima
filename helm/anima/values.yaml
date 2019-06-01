@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: celiangarcia/anima
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 nameOverride: ""
 fullnameOverride: ""

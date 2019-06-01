@@ -15,9 +15,9 @@ I added {{items}} to your shopping list:
 and:
   - et
 
-You have {{number}} items in your main shopping list, what do you want to do ?:
-  - Ok, la liste de courses. Vous avez {{number}} articles, que voulez-vous faire ?
-  - La liste de courses ? Bien sûr ! Vous avez {{number}} articles. Que fait-on ?
+You have {{count}} items in your main shopping list, what do you want to do ?:
+  - Ok, la liste de courses. Vous avez {{count}} articles, que voulez-vous faire ?
+  - La liste de courses ? Bien sûr ! Vous avez {{count}} articles. Que fait-on ?
 
 
 I don't know how to deal with weather for now.:
