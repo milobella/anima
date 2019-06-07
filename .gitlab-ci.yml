@@ -13,5 +13,5 @@ variables:
   PROJECT_NAME: "milobella"
   MODULE_NAME: ${CI_PROJECT_NAME}
   GITLAB_HOST: "gitlab.milobella.com"
-  MODULE_DESCRIPTION: "Natural language understanding service of Milobella."
-  HELM_NAME: "cerebro"
+  MODULE_DESCRIPTION: "Natural language generation service of Milobella."
+  HELM_NAME: "anima"
