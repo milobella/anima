@@ -19,7 +19,351 @@ You have {{count}} items in your main shopping list, what do you want to do ?:
   - Ok, la liste de courses. Vous avez {{count}} articles, que voulez-vous faire ?
   - La liste de courses ? Bien sûr ! Vous avez {{count}} articles. Que fait-on ?
 
-
 I don't know how to deal with weather for now.:
   - Désolé, je ne fais encore pas la pluie, et le beau temps.
   - La météo ? j'aimerais bien mais c'est pas encore tout à fait fini...
+
+In {{city}} now, the temperature is {{temperature}}. {{weather_sentence}}:
+  - En ce moment à {{city}}, la température est de {{temperature}} degrés. {{weather_sentence}}
+  - En ce moment à {{city}}, il fait {{temperature}} degrés. {{weather_sentence}}
+  - A {{city}} maintenant, la température est de {{temperature}} degrés. {{weather_sentence}}
+  - A {{city}} maintenant, il fait {{temperature}} degrés. {{weather_sentence}}
+
+There is thunderstorm with light rain.:
+  - Il y a de l'orage avec une légère pluie.
+
+There is thunderstorm with rain.:
+  - Il y a de l'orage et de la pluie.
+
+There is thunderstorm with heavy rain.:
+  - Il y a de l'orage accompagné de fortes pluies.
+
+There is light thunderstorm.:
+  - Il y a de légers orages.
+
+There is thunderstorm.:
+  - Il y a de l'orage.
+
+There is heavy thunderstorm.:
+  - Il y a de forts orages.
+
+There is ragged thunderstorm.:
+  - Il y a de très forts orages.
+
+There is thunderstorm with light drizzle.:
+  - Il y a de l'orage avec une bruine légère.
+
+There is thunderstorm with drizzle.:
+  - Il y a de l'orage et de la bruine.
+
+There is thunderstorm with heavy drizzle.:
+  - Il y a de l'orage et de la forte bruine.
+
+There is light intensity drizzle.:
+  - Il y a une petite bruine d'intensité légère.
+
+There is drizzle.:
+  - Il y a de la bruine.
+
+There is heavy intensity drizzle.:
+  - Il y a de la bruine intense.
+
+There is light intensity drizzle rain.:
+  - Il y a de la pluie d'intensité légère.
+
+There is drizzle rain.:
+  - Il y a de la pluie.
+
+There is heavy intensity drizzle rain.:
+  - Il y a de la pluie intense.
+
+There is shower rain and drizzle.:
+  - Il y a de grosses pluies.
+
+There is heavy shower rain and drizzle.:
+  - Il y a de très fortes pluies.
+
+There is shower drizzle.:
+  - Il y a de la bruine.
+
+There is light rain.:
+  - Il y a de la pluie légère.
+
+There is moderate rain.:
+  - Il y a de la pluie modérée.
+
+There is heavy intensity rain.:
+  - Il y a de la pluie intense.
+
+There is very heavy rain.:
+  - Il y a de très fortes pluies.
+
+There is extreme rain.:
+  - Il y a des pluies extrèmes.
+
+There is freezing rain.:
+  - Il y a de la pluie glaçante.
+
+There is light intensity shower rain.:
+  - Il ya de la pluie légère.
+
+There is shower rain.:
+  - Il y a de la pluie.
+
+There is heavy intensity shower rain.:
+  - Il y a de fortes pluies.
+
+There is ragged shower rain.:
+  - Il y a de très fortes pluies
+
+There is light snow.:
+  - Il y a un peu de neige.
+  - Il tombe quelques flocons.
+
+There is snow.:
+  - Il y a de la neige.
+  - Il neige.
+  - Des flocons de neige tombent du ciel.
+
+There is heavy snow.:
+  - Il y a beaucoup de neige.
+  - De gros flocons tombent du ciel.
+
+There is sleet.:
+  - Il tombe de la neige fondue.
+
+There is light shower sleet.:
+  - Il tombe de la neige fondue.
+
+There is shower sleet.:
+  - Il tombe de la neige fondue.
+
+There is light rain and snow.:
+  - Il y a un mélange de pluie et de neige.
+
+There is rain and snow.:
+  - Il y a un mélange de pluie et de neige.
+
+There is light shower snow.:
+  - Il y a un peu de neige.
+  - Il tombe quelques flocons.
+
+There is shower snow.:
+  - Il y a de la neige.
+  - Il neige.
+  - Des flocons de neige tombent du ciel.
+
+There is heavy shower snow.:
+  - Il y a beaucoup de neige.
+  - De gros flocons tombent du ciel.
+
+There is mist.:
+  - Il y a du brouillard.
+
+There is smoke.:
+  - Il y a de la fumée dehors.
+
+There is haze.:
+  - Il y a de la brume.
+
+There is sand dust whirls.:
+  - Il y a de la poussière de sables qui tourbillone.
+
+There is fog.:
+  - Il y a du brouillard épais.
+
+There is sand.:
+  - Il y a du sable.
+
+There is dust.:
+  - Il y a de la poussière.
+
+There is volcanic ash.:
+  - Il y a des cendres volcaniques.
+
+There is squalls.:
+  - Il y a du pollen.
+
+There is tornado.:
+  - Il y a des tornades.
+
+There is clear.:
+  - Le temps est clair.
+  - Le ciel est dégagé.
+
+There is few clouds.:
+  - Il y a quelques nuages.
+
+There is scattered clouds.:
+  - Il y a quelques nuages éparpillés.
+
+There is broken clouds.:
+  - Il y a des nuages.
+
+There is overcast clouds.:
+  - Il y a des nuages.
+  
+There will be thunderstorm with light rain.:
+  - change me
+
+There will be thunderstorm with rain.:
+  - change me
+
+There will be thunderstorm with heavy rain.:
+  - change me
+
+There will be light thunderstorm.:
+  - change me
+
+There will be thunderstorm.:
+  - change me
+
+There will be heavy thunderstorm.:
+  - change me
+
+There will be ragged thunderstorm.:
+  - change me
+
+There will be thunderstorm with light drizzle.:
+  - change me
+
+There will be thunderstorm with drizzle.:
+  - change me
+
+There will be thunderstorm with heavy drizzle.:
+  - change me
+
+There will be light intensity drizzle.:
+  - change me
+
+There will be drizzle.:
+  - change me
+
+There will be heavy intensity drizzle.:
+  - change me
+
+There will be light intensity drizzle rain.:
+  - change me
+
+There will be drizzle rain.:
+  - change me
+
+There will be heavy intensity drizzle rain.:
+  - change me
+
+There will be shower rain and drizzle.:
+  - change me
+
+There will be heavy shower rain and drizzle.:
+  - change me
+
+There will be shower drizzle.:
+  - change me
+
+There will be light rain.:
+  - change me
+
+There will be moderate rain.:
+  - change me
+
+There will be heavy intensity rain.:
+  - change me
+
+There will be very heavy rain.:
+  - change me
+
+There will be extreme rain.:
+  - change me
+
+There will be freezing rain.:
+  - change me
+
+There will be light intensity shower rain.:
+  - change me
+
+There will be shower rain.:
+  - change me
+
+There will be heavy intensity shower rain.:
+  - change me
+
+There will be ragged shower rain.:
+  - change me
+
+There will be light snow.:
+  - change me
+
+There will be snow.:
+  - change me
+
+There will be heavy snow.:
+  - change me
+
+There will be sleet.:
+  - change me
+
+There will be light shower sleet.:
+  - change me
+
+There will be shower sleet.:
+  - change me
+
+There will be light rain and snow.:
+  - change me
+
+There will be rain and snow.:
+  - change me
+
+There will be light shower snow.:
+  - change me
+
+There will be shower snow.:
+  - change me
+
+There will be heavy shower snow.:
+  - change me
+
+There will be mist.:
+  - change me
+
+There will be smoke.:
+  - change me
+
+There will be haze.:
+  - change me
+
+There will be sand dust whirls.:
+  - change me
+
+There will be fog.:
+  - change me
+
+There will be sand.:
+  - change me
+
+There will be dust.:
+  - change me
+
+There will be volcanic ash.:
+  - change me
+
+There will be squalls.:
+  - change me
+
+There will be tornado.:
+  - change me
+
+There will be clear.:
+  - change me
+
+There will be few clouds.:
+  - change me
+
+There will be scattered clouds.:
+  - change me
+
+There will be broken clouds.:
+  - change me
+
+There will be overcast clouds.:
+  - change me
