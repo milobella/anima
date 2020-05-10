@@ -19,6 +19,21 @@ You have {{count}} items in your main shopping list, what do you want to do ?:
   - Ok, la liste de courses. Vous avez {{count}} articles, que voulez-vous faire ?
   - La liste de courses ? Bien sûr ! Vous avez {{count}} articles. Que fait-on ?
 
+What do you want to add to your shopping list ?:
+  - Oui, tu veux ajouter quoi ?
+  - Bien sur, qu'est ce qu'on ajoute ?
+
+Error removing item from your shopping list.:
+  - Vraiment désolé, j'ai pas réussi à le supprimer de la liste...
+  - La suppression n'a pas marché... Mon conseil est de réessayer une autre fois.
+  - Il doit y avoir un bug, la suppression n'a pas fonctionné...
+
+Error adding item to your shopping list.:
+  - Vraiment désolé, j'ai pas réussi à ajouter ça sur la liste...
+  - Ah mince ! l'ajout a pas marché...
+Error receiving item from your shopping list.:
+  - Vraiment désolé, j'ai pas réussi à récupérer les éléments de la liste...
+
 I don't know how to deal with weather for now.:
   - Désolé, je ne fais encore pas la pluie, et le beau temps.
   - La météo ? j'aimerais bien mais c'est pas encore tout à fait fini...
