@@ -51,7 +51,7 @@ Your shopping list has been cleared.:
   - Ok ! c'est vide !
 
 "{{count}} items has been removed from your shopping list.":
-  - {{count}} articles ont été supprimés de la liste
+  - "{{count}} articles ont été supprimés de la liste"
 
 Error removing item from your shopping list.:
   - Vraiment désolé, j'ai pas réussi à le supprimer de la liste...
