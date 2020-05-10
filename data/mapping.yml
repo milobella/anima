@@ -9,31 +9,73 @@ Hello:
 Here are the movies in {{theater}} this evening, in the {{location}}'s theater:
   - Voici les films à l'affiche à {{theater}} de {{location}}
 
+## Shopping list ####################################################################
 I added {{items}} to your shopping list:
   - C'est fait, j'ai ajouté {{items}}
 
+I removed {{items}} from your shopping list.:
+  - Ceci n'est plus sur la liste, {{items}}.
+
 and:
   - et
+
+Your shopping list is already empty.:
+  - Ta liste est déjà vide.
+
+You don't have any elements in your shopping list.:
+  - Il n'y a rien dans la liste.
 
 You have {{count}} items in your main shopping list, what do you want to do ?:
   - Ok, la liste de courses. Vous avez {{count}} articles, que voulez-vous faire ?
   - La liste de courses ? Bien sûr ! Vous avez {{count}} articles. Que fait-on ?
 
+You have {{count}} items in your shopping list.:
+  - Il y a {{count}} éléments dans la liste
+
+You only have one element in your shopping list. There is {{item}.:
+  - Il n'y a qu'un seul élément c'est {{item}}.
+
+You have {{count}} items in your shopping list. There are {{items}}.:
+  - Il y a {{count}} éléments sur la liste,  {{items}}
+
 What do you want to add to your shopping list ?:
   - Oui, tu veux ajouter quoi ?
   - Bien sur, qu'est ce qu'on ajoute ?
+
+What do you want to delete from your shopping list ?:
+  - Ok ! tu veux supprimer quoi ?
+  - Super ! Qu'est-ce qu'on supprime ?
+
+Your shopping list has been cleared.:
+  - C'est bon, c'est vidé.
+  - Ok ! c'est vide !
+
+"{{count}} items has been removed from your shopping list.":
+  - {{count}} articles ont été supprimés de la liste
 
 Error removing item from your shopping list.:
   - Vraiment désolé, j'ai pas réussi à le supprimer de la liste...
   - La suppression n'a pas marché... Mon conseil est de réessayer une autre fois.
   - Il doit y avoir un bug, la suppression n'a pas fonctionné...
 
+Error removing all items from your shopping list.:
+  - La suppression n'a pas marché... Mon conseil est de réessayer une autre fois.
+  - Il doit y avoir un bug, la suppression n'a pas fonctionné...
+
 Error adding item to your shopping list.:
   - Vraiment désolé, j'ai pas réussi à ajouter ça sur la liste...
   - Ah mince ! l'ajout a pas marché...
+
 Error receiving item from your shopping list.:
   - Vraiment désolé, j'ai pas réussi à récupérer les éléments de la liste...
 
+Error counting items from your shopping list.:
+  - J'ai essayé de compter mais ça a pas marché...
+## End of Shoppinglist ########################################################
+
+
+
+## Weather ####################################################################
 I don't know how to deal with weather for now.:
   - Désolé, je ne fais encore pas la pluie, et le beau temps.
   - La météo ? j'aimerais bien mais c'est pas encore tout à fait fini...
@@ -382,3 +424,4 @@ There will be broken clouds.:
 
 There will be overcast clouds.:
   - change me
+## End of Weather ####################################################################
