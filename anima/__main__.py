@@ -12,7 +12,7 @@ _config = configparser.ConfigParser()
 _config.read('anima.ini')
 
 # Initialize the sanic app
-_app = Sanic()
+_app = Sanic(name="anima")
 
 # Initialize the Natural Language Generator
 _sentence_generator = SentenceGenerator(

@@ -83,7 +83,7 @@ class SentenceMappingReader(object):
     def build(self):
         with open(self._file_path, 'r') as stream:
             try:
-                _mapping = yaml.load(stream)
+                _mapping = yaml.load(stream, Loader=yaml.FullLoader)
                 return SentenceMapping(Normalizer.normalize_dict_keys(_mapping))
             except yaml.YAMLError as e:
                 print("Error ", e)
