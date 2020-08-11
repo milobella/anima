@@ -1,11 +1,12 @@
 # Anima
-Anima manage the NLG (Natural Language Generation) part of milobella.
+Anima manages the NLG (Natural Language Generation) part of Milobella.
 
-Main purposes :
-- Generated sentences should be understandables;
-- Should be also grammatically correct;
-- All sentences of an anima entity should seems to come from a unique person, with a temper, an identity;
-- Sentences should be adapted to the person who is speaking.
+All sentences of an Anima entity should :
+- be understandable,
+- be grammatically correct,
+- be available in several languages,
+- seem to come from a unique person, with a temper, an identity,
+- be adapted to the person who is speaking.
 
 ## Installation
 ```bash
@@ -20,6 +21,14 @@ anima_launcher
 
 ## Example of request
 
+### Sentence restitution
 ```bash
-curl -i -X POST http://localhost:9333/restitute -d '{"sentence": "It is {{time}}", "params": [{"name": "time", "type": "time", "value": "15h"}]}'
+$ curl -i -X POST http://localhost:9333/restitute -d '{"sentence": "It is {{time}}", "params": [{"name": "time", "type": "time", "value": "15h"}]}'
+Il est 15h.
+```
+
+### Raw sentences
+```bash
+$ curl http://localhost:9333/sentences
+{"it is {{time}}":["Il est {{time}}"]}
 ```
