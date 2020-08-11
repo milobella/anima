@@ -1,4 +1,4 @@
-jinja2
-PyYAML
-sanic
+jinja2~=2.11.2
+PyYAML~=5.3.1
+sanic~=20.6.3
 nltk

@@ -14,6 +14,9 @@ class SentenceMapping(object):
         random_index = randint(0, len(result) - 1)
         return result[random_index]
 
+    def get_all(self):
+        return self._mapping
+
 
 class Jinja2ParamsResolver(object):
     def __init__(self):

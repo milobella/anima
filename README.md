@@ -23,7 +23,3 @@ anima_launcher
 ```bash
 curl -i -X POST http://localhost:9333/restitute -d '{"sentence": "It is {{time}}", "params": [{"name": "time", "type": "time", "value": "15h"}]}'
 ```
-
-## CHANGELOGS
-- [Application changelog](./CHANGELOG.md)
-- [Helm chart changelog](./helm/anima/CHANGELOG.md)
