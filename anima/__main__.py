@@ -29,15 +29,25 @@ def main():
 
 @_app.route('/')
 async def home(_):
-    return response.html('<p>Hello world!</p>')
+    return response.html('<p>Hello world from Anima !</p>')
 
 
+# TODO: Remove it once /api/v1 endpoint is used
 @_app.route('/restitute', methods=["POST"])
+async def restituteDeprecated(request: Request):
+    return _restitute(request)
+
+
+@_app.route('/api/v1/restitute', methods=["POST"])
 async def restitute(request: Request):
+    return _restitute(request)
+
+
+def _restitute(request: Request):
     return response.text(_sentence_generator.generate(request.json["sentence"], request.json.get("params", [])))
 
 
-@_app.route('/sentences', methods=["GET"])
+@_app.route('/api/v1/sentences', methods=["GET"])
 async def restitute(_: Request):
     result = _sentence_mapping.get_all()
     print(result)

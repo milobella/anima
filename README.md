@@ -23,12 +23,12 @@ anima_launcher
 
 ### Sentence restitution
 ```bash
-$ curl -i -X POST http://localhost:9333/restitute -d '{"sentence": "It is {{time}}", "params": [{"name": "time", "type": "time", "value": "15h"}]}'
+$ curl -X POST http://localhost:9333/api/v1/restitute -d '{"sentence": "It is {{time}}", "params": [{"name": "time", "type": "time", "value": "15h"}]}'
 Il est 15h.
 ```
 
 ### Raw sentences
 ```bash
-$ curl http://localhost:9333/sentences
+$ curl http://localhost:9333/api/v1/sentences
 {"it is {{time}}":["Il est {{time}}"]}
 ```
